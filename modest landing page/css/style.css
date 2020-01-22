@@ -4,19 +4,159 @@ body{
     box-sizing: border-box;
 }
 
-.contenitore{
-    background-color: black;
+.contenitore-header{
+    background-color: #1d2025;
     display: flex;
     justify-content: center;
 }
 
 .jumbotron{
-    width: 1000px;
+    width: 850px;
 }
 
 .header{
-    background-color: blue;
+    background-color: #1d2025;
     height: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.immagine{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar span{
+    color: #a9aeb2;
+    text-transform: uppercase;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 3px 7px;
+    font-family: 'open sans';
+    border-radius: 5px;
+    font-size: small;
+    border: 1px solid #1d2025;
+}
+
+.navbar span.home{
+    color: #22b7a3;
+    border: 1px solid #22b7a3;
+}
+
+.navbar span:hover{
+    border: 1px solid #a9aeb2;
+}
+
+.navbar span.home:hover{
+    border: 1px solid #22b7a3;
+}
+
+.contenitore-blocco-uno{
+    background-image: url(../img/blocco-uno.jpg);
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 70px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-uno{
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+.scritte{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'open sans';
+}
+
+.scritte .buttons{
+    margin-top: 25px;
+}
+
+.scritte .buttons span{
+    text-transform: uppercase;
+    margin-right: 7px;
+    padding: 15px;
+    border: 1px solid #fefeff;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.scritte .buttons span:hover{
+    background-color: #24b7a4;
+    border: 1px solid #24b7a4;
+}
+
+.pallini{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.pallini span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 10px 2px;
+}
+
+.pallini span:nth-child(2){
+    background-color: white;
+}
+
+.contenitore-blocco-due{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 70px);
+    background-color: violet;
+}
+
+.titolo{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+    font-family: 'open-sans';
+}
+
+.quadrato{
+    width: 8px;
+    height: 25px;
+    background-color: #e1e6ea;
+    margin-right: 8px;
+}
+
+.titolo div{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.blocco-due{
+    display: flex;
+}
+
+.blocco-due .sx{
+    flex: 2;
+}
+
+.blocco-due .dx{
+    flex: 1;
 }
