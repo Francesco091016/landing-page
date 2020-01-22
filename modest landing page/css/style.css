@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron{
+    width: 1000px;
+}
+
+.header{
+    background-color: blue;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
