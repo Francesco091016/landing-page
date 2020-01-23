@@ -25,7 +25,7 @@ body{
     display: flex;
     align-items: center;
 }
-.immagine{
+.logo .immagine{
     background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -78,7 +78,7 @@ body{
 }
 
 .scritte{
-    flex: 2;
+    flex: 6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,7 +87,7 @@ body{
 }
 
 .scritte .buttons{
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 .scritte .buttons span{
@@ -105,7 +105,7 @@ body{
 }
 
 .pallini{
-    flex: 1;
+    flex: 4;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -126,14 +126,15 @@ body{
 .contenitore-blocco-due{
     display: flex;
     justify-content: center;
-    height: calc(100vh - 70px);
-    background-color: violet;
+    height: calc(100vh - 150px);
+    background-color: white;
+    border-bottom: 1px solid #969698;
 }
 
 .titolo{
     display: flex;
     flex-direction: row;
-    margin: 50px 0px;
+    margin: 55px 0px;
     font-family: 'open-sans';
 }
 
@@ -154,9 +155,269 @@ body{
 }
 
 .blocco-due .sx{
-    flex: 2;
+    flex: 6;
+    display: flex;
+    flex-direction: column;
 }
 
 .blocco-due .dx{
-    flex: 1;
+    flex: 4;
 }
+
+.social{
+    display: flex;
+    margin-top: 35px;
+}
+
+.social span{
+    padding: 15px;
+    background-color: #c8cdd0;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 1px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.social span:hover{
+    background-color: #d0d5d9;
+}
+
+.sx .scritta{
+    font-size: 16px;
+    font-family: 'open-sans';
+    color: #969698;
+}
+
+.dx{
+    display: flex;
+    flex-direction: column;
+}
+
+.dx .elenco{
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.dx .elenco .numero{
+    padding: 14px;
+    background-color: #24b7a4;
+    color: #ffffff;
+    font-size: 19px;
+    width: 20px;
+    text-align: center;
+    margin: 0px 25px;
+    height: 20px;
+}
+
+.dx .elenco .descr{
+    font-size: 16px;
+    font-family: 'open-sans';
+    color: #969698;
+}
+
+.dx .elenco .descr h5{
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contenitore-blocco-tre{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 150px);
+}
+
+.blocco-tre{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocco-tre .card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 270px;
+}
+
+.blocco-tre .card .immagine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocco-tre .card .immagine span{
+    color: white;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
+    background-color: #3b454e;
+    margin-right: 1px;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+
+.blocco-tre .card .immagine:hover span {
+    display: inline;
+}
+
+.blocco-tre .card .immagine:hover~.descr{
+    background-color: #3b454e;
+    color: #eef1f2;
+}  
+
+.blocco-tre .card .immagine:hover~.descr span{
+    color: #eef1f2;
+}  
+
+.blocco-tre .card .immagine span:hover{
+    background-color: #4e5b63;
+}
+
+.contenitore-blocco-tre .card .immagine.persona1{
+    background-image: url(../img/peersona-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 200px;
+}
+
+.contenitore-blocco-tre .card .immagine.persona2{
+    background-image: url(../img/persona-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 200px;
+}
+
+.contenitore-blocco-tre .card .immagine.persona3{
+    background-image: url(../img/persona-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 200px;
+}
+
+.contenitore-blocco-tre .card .immagine.persona4{
+    background-image: url(../img/persona-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 200px;
+}
+
+.blocco-tre .card .descr{
+    flex: 2;
+    background-color: #e1e6ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8f9297;
+    font-size: 15px;
+}
+
+.blocco-tre .card .descr span{
+    color: black;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.contenitore-blocco-quattro{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh);
+    background-color: #3b454e;
+}
+
+.blocco-quattro{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocco-quattro .contenitore-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blocco-quattro .card-work{
+    height: 200px;
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.blocco-quattro .card-work .nascondi{
+    height: 200px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.blocco-quattro .card-work.sfondo1{
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-quattro .card-work.sfondo2{
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-quattro .card-work.sfondo3{
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-quattro .card-work.sfondo4{
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-quattro .card-work.sfondo5{
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-quattro .card-work.sfondo6{
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocco-quattro .card-work .nascondi span{
+    flex:7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blocco-quattro .card-work .nascondi .descr-work{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: #282f37;
+    font-size: small;
+    color: white;
+    font-family: 'open sans';
+}
+
+.blocco-quattro .card-work .nascondi{
+    visibility: hidden;
+}
+
+.blocco-quattro .card-work:hover .nascondi{
+    visibility: visible;
+}
+
