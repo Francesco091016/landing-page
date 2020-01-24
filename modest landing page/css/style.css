@@ -97,6 +97,7 @@ body{
     border: 1px solid #fefeff;
     font-size: small;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .scritte .buttons span:hover{
@@ -247,6 +248,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: linear 0.2s;
 }
 
 .blocco-tre .card .immagine span{
@@ -265,9 +267,14 @@ body{
     display: inline;
 }
 
+.blocco-tre .card .immagine:hover{
+    transform: scale(1.1);
+}
+
 .blocco-tre .card .immagine:hover~.descr{
     background-color: #3b454e;
     color: #eef1f2;
+    transform: scale(1.1);
 }  
 
 .blocco-tre .card .immagine:hover~.descr span{
@@ -319,6 +326,7 @@ body{
     align-items: center;
     color: #8f9297;
     font-size: 15px;
+    transition: linear 0.2s;
 }
 
 .blocco-tre .card .descr span{
@@ -357,12 +365,14 @@ body{
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.356);
 }
 
 .blocco-quattro .card-work.sfondo1{
     background-image: url(../img/img1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .blocco-quattro .card-work.sfondo2{
@@ -404,7 +414,7 @@ body{
 }
 
 .blocco-quattro .card-work .nascondi .descr-work{
-    flex: 2;
+    flex: 0;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -413,14 +423,20 @@ body{
     font-size: small;
     color: white;
     font-family: 'open sans';
+    height: 0;
+    transition: linear 0.2s;
 }
 
 .blocco-quattro .card-work .nascondi{
     visibility: hidden;
+
 }
 
 .blocco-quattro .card-work:hover .nascondi{
     visibility: visible;
+}
+.blocco-quattro .card-work:hover .nascondi .descr-work{
+    flex:2;
 }
 
 .blocco-quattro .buttons{
@@ -428,6 +444,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 70px;
+    cursor: pointer;
 }
 
 .blocco-quattro .buttons span{
