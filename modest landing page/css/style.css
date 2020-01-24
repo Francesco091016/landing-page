@@ -126,7 +126,7 @@ body{
 .contenitore-blocco-due{
     display: flex;
     justify-content: center;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 120px);
     background-color: white;
     border-bottom: 1px solid #969698;
 }
@@ -135,7 +135,9 @@ body{
     display: flex;
     flex-direction: row;
     margin: 55px 0px;
-    font-family: 'open-sans';
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .quadrato{
@@ -226,7 +228,7 @@ body{
 .contenitore-blocco-tre{
     display: flex;
     justify-content: center;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 120px);
 }
 
 .blocco-tre{
@@ -328,7 +330,7 @@ body{
 .contenitore-blocco-quattro{
     display: flex;
     justify-content: center;
-    height: calc(100vh);
+    height: calc(100vh + 95px);
     background-color: #3b454e;
 }
 
@@ -421,3 +423,249 @@ body{
     visibility: visible;
 }
 
+.blocco-quattro .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.blocco-quattro .buttons span{
+    border: 1px white solid;
+    border-radius: 5px;
+    color: white;
+    font-family: 'open sans';
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.contenitore-blocco-cinque{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh + 20px);
+}
+
+.blocco-cinque{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blocco-cinque .card-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+.blocco-cinque .card-do .glyph{
+    color: #28b6a3;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.blocco-cinque .card-do .title{
+    color: #3b3c40;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.blocco-cinque .card-do .descr{
+    color: #a7a7a7;
+    text-align: center;
+}
+
+.contenitore-blocco-sei{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    background-color: #3b454e;
+}
+
+.blocco-sei{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocco-sei .card-features{
+    height: 320px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocco-sei .card-features .img1{
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin-bottom: 37px;
+}
+
+.blocco-sei .card-features .img2{
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin-bottom: 37px;
+}
+
+.blocco-sei .card-features .img3{
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin-bottom: 37px;
+}
+
+.blocco-sei .card-features .descr{
+    flex:1;
+    color: #ccccce;
+    font-family: 'open sans';
+    font-size: 14px;
+}
+
+.contenitore-blocco-sette{
+    display: flex;
+    justify-content: center;
+    height: calc(135px);
+}
+
+
+.mappa{
+    height: 300px;
+    background-image: url(../img/mappa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -120px;
+}
+
+.contenitore-blocco-otto{
+    display: flex;
+    justify-content: center;
+    height: calc(350px);
+}
+
+.blocco-otto{
+    display: flex;
+}
+
+.blocco-otto .contatti{
+    display: flex;
+}
+
+.contatti .info{
+    width: 450px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    z-index: -100;
+}
+
+.info .scritta{
+    display: flex;
+    flex-direction: column;
+    font-family: 'open sans';
+    font-size: 14px;
+}
+
+.info .scritta .title{
+    color: #2a2f35;
+    margin-bottom: 20px;
+}
+
+.info .scritta .descr{
+    color: #ababab;
+}
+
+
+.contatti .form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 325px;
+    justify-content: space-around;
+}
+
+.form .name-mail{
+    display: flex;
+    margin-left: 10px;
+}
+
+.form .message{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'open sans';
+    color: #ababab;
+}
+
+input[type="text"]{
+    border: none;
+    background-color: #eaeef1;
+    border-radius: 5px;
+}
+
+input.name{
+    height: 30px;
+    width: 180px;
+}
+
+input.message{
+    height: 100px;
+    width: 380px;
+}
+
+input[type="submit"]
+{
+    width: 130px;
+    height: 40px;
+    background-color: #24b7a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;  
+    line-height: 0px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+div.message{
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: calc(80px);
+    background-color: #3b454e;
+}
+
+.footer .container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.copy{
+    color: #ffffff;
+    font-family: 'open sans';
+    font-size: 12px;
+}
+
+.social-footer span{
+    color: #ffffff;
+    font-size: 15px;
+    padding:10px;
+}
