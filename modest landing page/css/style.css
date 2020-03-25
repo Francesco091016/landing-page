@@ -1,19 +1,36 @@
+/* #region GENERAL STYLE */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.comfortaa {
+    font-family: 'Comfortaa', cursive;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron{
+    width: 850px;
+}
+/* #endregion */
+
+
+/* #region HEADER + NAVBAR */
 .contenitore-header{
     background-color: #1d2025;
     display: flex;
     justify-content: center;
 }
 
+/* moved in style general
 .jumbotron{
     width: 850px;
-}
-
+} */
+ 
 .header{
     background-color: #1d2025;
     height: 70px;
@@ -26,12 +43,22 @@ body{
     align-items: center;
 }
 .logo .immagine{
-    background-image: url(../img/logo.png);
+    /* background-image: url(../img/logo.png); */
+    /* background-image: url(../img/logo_bn.png); */
+    background-image: url(../img/logo_cerchio_positivo.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 60px;
 }
+
+.title-img{
+    font-size: small;
+    background: -webkit-linear-gradient(#0278c2, #0aa7a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .navbar{
     display: flex;
@@ -39,30 +66,41 @@ body{
 }
 
 .navbar span{
-    color: #a9aeb2;
+    /* color: #a9aeb2; */
+    color: #d9d7d8;
     text-transform: uppercase;
     margin-left: 20px;
     cursor: pointer;
     padding: 3px 7px;
-    font-family: 'open sans';
+    /* font-family: 'open sans'; */
     border-radius: 5px;
+    /* font-size: small; */
     font-size: small;
     border: 1px solid #1d2025;
 }
 
 .navbar span.home{
-    color: #22b7a3;
-    border: 1px solid #22b7a3;
+    /* color: #22b7a3;
+    border: 1px solid #22b7a3; */
+    color: #0278c2;
+    border: 1px solid #0278c2;
 }
 
 .navbar span:hover{
-    border: 1px solid #a9aeb2;
+    /* border: 1px solid #a9aeb2; */
+    border: 1px solid #0aa7a3;
+    color: #0aa7a3;
 }
 
 .navbar span.home:hover{
-    border: 1px solid #22b7a3;
+    /* border: 1px solid #22b7a3; */
+    border: 1px solid #0278c2;
+    color: #0278c2;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 1 */
 .contenitore-blocco-uno{
     background-image: url(../img/blocco-uno.jpg);
     display: flex;
@@ -123,7 +161,10 @@ body{
 .pallini span:nth-child(2){
     background-color: white;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 2 */
 .contenitore-blocco-due{
     display: flex;
     justify-content: center;
@@ -225,7 +266,10 @@ body{
     font-size: 15px;
     margin-bottom: 10px;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 3 */
 .contenitore-blocco-tre{
     display: flex;
     justify-content: center;
@@ -334,7 +378,10 @@ body{
     font-size: 16px;
     padding-top: 5px;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 4 */
 .contenitore-blocco-quattro{
     display: flex;
     justify-content: center;
@@ -456,7 +503,10 @@ body{
     padding: 10px;
     font-size: 10px;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 5 */
 .contenitore-blocco-cinque{
     display: flex;
     justify-content: center;
@@ -494,7 +544,10 @@ body{
     color: #a7a7a7;
     text-align: center;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 6 */
 .contenitore-blocco-sei{
     display: flex;
     justify-content: center;
@@ -544,12 +597,16 @@ body{
     font-family: 'open sans';
     font-size: 14px;
 }
+/* #endregion */
 
+
+/* #region BLOCCO 7 */
 .contenitore-blocco-sette{
     display: flex;
     justify-content: center;
     height: calc(135px);
 }
+/* #endregion */
 
 
 .mappa{
@@ -560,6 +617,8 @@ body{
     margin-bottom: -120px;
 }
 
+
+/* #region BLOCCO 8 */
 .contenitore-blocco-otto{
     display: flex;
     justify-content: center;
@@ -660,7 +719,10 @@ input[type="submit"]
 div.message{
     margin-left: 10px;
 }
+/* #endregion */
 
+
+/* #region FOOTER */
 .footer{
     display: flex;
     justify-content: center;
@@ -686,3 +748,4 @@ div.message{
     font-size: 15px;
     padding:10px;
 }
+/* #endregion */
