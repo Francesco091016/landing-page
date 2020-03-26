@@ -532,7 +532,7 @@ body{
 .contenitore-blocco-cinque{
     display: flex;
     justify-content: center;
-    height: calc(100vh + 20px);
+    height: 50vh;
 }
 
 .blocco-cinque{
