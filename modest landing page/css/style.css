@@ -279,12 +279,13 @@ body{
     display: flex;
     justify-content: center;
     height: calc(100vh - 25px);
-
+    background-color: #3b454e;
 }
 
 .blocco-tre{
     display: flex;
     justify-content: space-between;
+
 }
 
 .blocco-tre .card{
