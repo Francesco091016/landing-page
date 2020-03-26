@@ -278,6 +278,7 @@ body{
     display: flex;
     justify-content: center;
     height: calc(100vh - 25px);
+
 }
 
 .blocco-tre{
@@ -380,15 +381,6 @@ body{
     flex: 6;
     width: 220px;
 } 
-
-
-/* .contenitore-blocco-tre .card .immagine.persona4{
-    background-image: url(../img/persona-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex: 6;
-    width: 200px;
-} */
 
 .blocco-tre .card .descr{
     flex: 2;
@@ -590,41 +582,48 @@ body{
 }
 
 .blocco-sei .card-features{
-    height: 320px;
-    width: 270px;
+    height: 720px;
+    width: 300px;
     display: flex;
     flex-direction: column;
 }
 
 .blocco-sei .card-features .img1{
-    background-image: url(../img/img1.jpg);
+    background-image: url(../img/save-food.png);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 1;
     margin-bottom: 37px;
+    margin-left: -2px;
+    
 }
 
 .blocco-sei .card-features .img2{
-    background-image: url(../img/img2.jpg);
+    background-image: url(../img/save-money.png);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 1;
     margin-bottom: 37px;
+    margin-right: -2px;
+
 }
 
 .blocco-sei .card-features .img3{
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/save-time.png);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 1;
     margin-bottom: 37px;
+    margin-right: -2px;
+    
 }
 
 .blocco-sei .card-features .descr{
     flex:1;
     color: #ccccce;
     font-family: 'open sans';
-    font-size: 14px;
+    font-size: 17px;
+    text-align: center;
 }
 /* #endregion */
 
