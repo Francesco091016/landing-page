@@ -357,8 +357,8 @@ body{
     width: 220px;
 }
 
-/* .contenitore-blocco-tre .card .immagine.persona4{
-    background-image: url(../img/Baltieri.JPEG);
+ .contenitore-blocco-tre .card .immagine.persona4{
+    background-image: url(../img/Grisotto.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
@@ -366,7 +366,7 @@ body{
 }
 
 .contenitore-blocco-tre .card .immagine.persona5{
-    background-image: url(../img/Baltieri.JPEG);
+    background-image: url(../img/Gaia.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
@@ -374,12 +374,12 @@ body{
 }
 
 .contenitore-blocco-tre .card .immagine.persona6{
-    background-image: url(../img/Baltieri.JPEG);
+    background-image: url(../img/Pizzeghella.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
     width: 220px;
-} */
+} 
 
 
 /* .contenitore-blocco-tre .card .immagine.persona4{
