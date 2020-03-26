@@ -11,6 +11,7 @@ body{
 
 .raleway {
     font-family: 'Raleway', sans-serif;
+    font-weight: normal !important;
 }
 
 .jumbotron{
@@ -582,26 +583,31 @@ body{
 }
 
 .blocco-sei .card-features{
-    height: 720px;
+   /*  height: 720px;
+    width: 300px; */
+    height: 400px;
     width: 300px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .blocco-sei .card-features .img1{
     background-image: url(../img/save-food.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     flex: 1;
     margin-bottom: 37px;
     margin-left: -2px;
-    
+    justify-content: center;
 }
 
 .blocco-sei .card-features .img2{
     background-image: url(../img/save-money.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     flex: 1;
     margin-bottom: 37px;
     margin-right: -2px;
@@ -611,7 +617,8 @@ body{
 .blocco-sei .card-features .img3{
     background-image: url(../img/save-time.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     flex: 1;
     margin-bottom: 37px;
     margin-right: -2px;
@@ -621,9 +628,9 @@ body{
 .blocco-sei .card-features .descr{
     flex:1;
     color: #ccccce;
-    font-family: 'open sans';
     font-size: 17px;
     text-align: center;
+    font-weight: 600;
 }
 /* #endregion */
 
