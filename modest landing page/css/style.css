@@ -16,6 +16,27 @@ body{
 .jumbotron{
     width: 850px;
 }
+
+.titolo{
+    display: flex;
+    flex-direction: row;
+    margin: 55px 0px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.quadrato{
+    width: 8px;
+    height: 25px;
+    background-color: #e1e6ea;
+    margin-right: 8px;
+}
+
+.titolo div{
+    text-transform: uppercase;
+    font-size: 25px;
+}
 /* #endregion */
 
 
@@ -102,7 +123,8 @@ body{
 
 /* #region BLOCCO 1 */
 .contenitore-blocco-uno{
-    background-image: url(../img/blocco-uno.jpg);
+    /* background-image: url(../img/blocco-uno.jpg); */
+    background-image: url(../img/food.jpg);
     display: flex;
     justify-content: center;
     height: calc(100vh - 70px);
@@ -120,7 +142,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: #ffffff;
     font-family: 'open sans';
 }
 
@@ -139,8 +161,10 @@ body{
 }
 
 .scritte .buttons span:hover{
-    background-color: #24b7a4;
-    border: 1px solid #24b7a4;
+    /* background-color: #24b7a4;
+    border: 1px solid #24b7a4; */
+    background-color: #0278c2;
+    border: 1px solid #0278c2;
 }
 
 .pallini{
@@ -154,12 +178,12 @@ body{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     margin: 10px 2px;
 }
 
 .pallini span:nth-child(2){
-    background-color: white;
+    background-color: #ffffff;
 }
 /* #endregion */
 
@@ -169,29 +193,8 @@ body{
     display: flex;
     justify-content: center;
     height: calc(100vh - 120px);
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 1px solid #969698;
-}
-
-.titolo{
-    display: flex;
-    flex-direction: row;
-    margin: 55px 0px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-.quadrato{
-    width: 8px;
-    height: 25px;
-    background-color: #e1e6ea;
-    margin-right: 8px;
-}
-
-.titolo div{
-    text-transform: uppercase;
-    font-size: 25px;
 }
 
 .blocco-due{
@@ -229,8 +232,8 @@ body{
 }
 
 .sx .scritta{
-    font-size: 16px;
-    font-family: 'open-sans';
+    font-size: 15px;
+    /* font-family: 'open-sans'; */
     color: #969698;
 }
 
@@ -245,10 +248,10 @@ body{
 }
 
 .dx .elenco .numero{
-    padding: 14px;
+    padding: 15px;
     background-color: #24b7a4;
     color: #ffffff;
-    font-size: 19px;
+    font-size: 18px;
     width: 20px;
     text-align: center;
     margin: 0px 25px;
@@ -257,7 +260,7 @@ body{
 
 .dx .elenco .descr{
     font-size: 16px;
-    font-family: 'open-sans';
+    /* font-family: 'open-sans'; */
     color: #969698;
 }
 
@@ -284,7 +287,7 @@ body{
 .blocco-tre .card{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 220px;
     height: 270px;
 }
 
@@ -296,7 +299,7 @@ body{
 }
 
 .blocco-tre .card .immagine span{
-    color: white;
+    color: #ffffff;
     padding: 10px;
     height: 15px;
     width: 15px;
@@ -334,7 +337,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
-    width: 200px;
+    width: 220px;
 }
 
 .contenitore-blocco-tre .card .immagine.persona2{
@@ -342,7 +345,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
-    width: 200px;
+    width: 220px;
 }
 
 .contenitore-blocco-tre .card .immagine.persona3{
@@ -350,16 +353,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
-    width: 200px;
+    width: 220px;
 }
 
-.contenitore-blocco-tre .card .immagine.persona4{
+/* .contenitore-blocco-tre .card .immagine.persona4{
     background-image: url(../img/persona-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
     width: 200px;
-}
+} */
 
 .blocco-tre .card .descr{
     flex: 2;
@@ -457,7 +460,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #ffffff;
 }
 
 .blocco-quattro .card-work .nascondi .descr-work{
@@ -468,7 +471,7 @@ body{
     padding-left: 15px;
     background-color: #282f37;
     font-size: small;
-    color: white;
+    color: #ffffff;
     font-family: 'open sans';
     height: 0;
     transition: linear 0.2s;
@@ -495,9 +498,9 @@ body{
 }
 
 .blocco-quattro .buttons span{
-    border: 1px white solid;
+    border: 1px #ffffff solid;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     font-family: 'open sans';
     text-transform: uppercase;
     padding: 10px;
@@ -639,7 +642,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: white;
+    background-color: #ffffff;
     z-index: -100;
 }
 
@@ -656,14 +659,14 @@ body{
 }
 
 .info .scritta .descr{
-    color: #ababab;
+    color: #645757;
 }
 
 
 .contatti .form{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #ffffff;
     width: 400px;
     height: 325px;
     justify-content: space-around;
@@ -704,16 +707,18 @@ input.message{
 
 input[type="submit"]
 {
-    width: 130px;
+    width: 180px;
     height: 40px;
-    background-color: #24b7a4;
-    color: white;
+   /*  background-color: #24b7a4; */
+   background-color: #0278c2;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     padding: 15px;  
     line-height: 0px;
     margin-left: 10px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 div.message{
