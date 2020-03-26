@@ -276,7 +276,7 @@ body{
 .contenitore-blocco-tre{
     display: flex;
     justify-content: center;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 25px);
 }
 
 .blocco-tre{
