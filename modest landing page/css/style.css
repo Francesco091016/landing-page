@@ -334,7 +334,7 @@ body{
 }
 
 .contenitore-blocco-tre .card .immagine.persona1{
-    background-image: url(../img/peersona-1.jpg);
+    background-image: url(../img/Bruno.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
@@ -342,7 +342,7 @@ body{
 }
 
 .contenitore-blocco-tre .card .immagine.persona2{
-    background-image: url(../img/persona-2.jpg);
+    background-image: url(../img/Calian.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
@@ -350,12 +350,37 @@ body{
 }
 
 .contenitore-blocco-tre .card .immagine.persona3{
-    background-image: url(../img/persona-3.jpg);
+    background-image: url(../img/Baltieri.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 6;
     width: 220px;
 }
+
+/* .contenitore-blocco-tre .card .immagine.persona4{
+    background-image: url(../img/Baltieri.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 220px;
+}
+
+.contenitore-blocco-tre .card .immagine.persona5{
+    background-image: url(../img/Baltieri.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 220px;
+}
+
+.contenitore-blocco-tre .card .immagine.persona6{
+    background-image: url(../img/Baltieri.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 6;
+    width: 220px;
+} */
+
 
 /* .contenitore-blocco-tre .card .immagine.persona4{
     background-image: url(../img/persona-4.jpg);
