@@ -722,10 +722,13 @@ body{
 .info .scritta .title{
     color: #2a2f35;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .info .scritta .descr{
     color: #645757;
+    text-align: justify;
+    margin-right: 30px;
 }
 
 
