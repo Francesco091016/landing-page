@@ -14,12 +14,12 @@ body{
     font-weight: normal !important;
 }
 
-a {
+.link:nth-child(-n+4) {
     text-decoration: none;
     color: #d9d7d8;
 }
 
-a:hover{
+.link:hover{
     color: #0aa7a3;
 }
 
@@ -50,6 +50,7 @@ a:hover{
     font-size: 25px;
 }
 /* #endregion */
+
 
 /* #region SCROLL TO TOP */
 #myBtn {
@@ -161,7 +162,8 @@ a:hover{
 /* #region BLOCCO 1 */
 .contenitore-blocco-uno{
     /* background-image: url(../img/blocco-uno.jpg); */
-    background-image: url(../img/food.jpg);
+    /* background-image: url(../img/food.jpg); */
+    background-image: url(../img/wall-food.jpg);
     display: flex;
     justify-content: center;
     height: calc(100vh - 70px);
@@ -254,6 +256,7 @@ a:hover{
 
 .social{
     display: flex;
+    flex-direction: row;
     margin-top: 0px;
 }
 
@@ -748,14 +751,28 @@ a:hover{
 label{
     text-transform: uppercase;
     font-size: 12px;
-    /* font-family: 'open sans'; */
     color: #ababab;
 }
 
-input[type="text"]{
+input[type="text"] {
     border: none;
     background-color: #eaeef1;
     border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+    resize: vertical;
+}
+
+textarea{
+    border: none;
+    background-color: #eaeef1;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+    width: 370px;
+    min-width: 370px;
+    max-width: 370px;
+    max-height: 250px;
 }
 
 input.name{
