@@ -111,7 +111,7 @@ a:hover{
 }
 
 .title-img{
-    font-size: small;
+    font-size: large;
     background: -webkit-linear-gradient(#0278c2, #0aa7a3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
