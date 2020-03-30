@@ -321,7 +321,7 @@ body{
 .contenitore-blocco-tre{
     display: flex;
     justify-content: center;
-    height: calc(100vh);
+    height: calc(100vh + 20px);
     background-color: #3b454e;
 }
 
@@ -447,7 +447,7 @@ body{
 /* #endregion */
 
 
-/* #region BLOCCO 4 */
+/* #region BLOCCO 4 *
 .contenitore-blocco-quattro{
     display: flex;
     justify-content: center;
@@ -569,14 +569,14 @@ body{
     padding: 10px;
     font-size: 10px;
 }
-/* #endregion */
+#endregion */
 
 
 /* #region BLOCCO 5 */
 .contenitore-blocco-cinque{
     display: flex;
     justify-content: center;
-    height: calc(100vh + 20px);
+    height: calc(100vh + 40px);
 }
 
 .blocco-cinque{
